@@ -6,12 +6,12 @@ import Downloads from "./Downloads";
 import HeroPhone from "./HeroPhone";
 function Hero() {
   return (
-    <section id="top" className=" bg-purple-700 ">
-      <div className="flex justify-between items-center py-5 px-5">
+    <section id="top" className=" bg-purple-700 md:px-24 lg:pt-10 pb-24">
+      <div className="flex justify-between items-center py-0 px-5 ">
         <Brand brandName="MIN" />
         <Burger />
       </div>
-      <div className="pt-16 flex flex-col md:flex-row">
+      <div className="pt-5 flex flex-col md:flex-row items-center">
         <div className="md:w-6/12">
           <Heading
             title="MINIMA"

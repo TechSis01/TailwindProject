@@ -14,11 +14,11 @@ function DownloadSection() {
         />
         <TopHeader
           text={freeText}
-          beauty="text-white text-2xl text-center py-5 leading-9"
+          beauty="text-white text-2xl text-center py-5 leading-9 lg:w-6/12 mx-auto"
         />
         <div className="flex text-gray-50 justify-center items-center pt-10">
-          <AppStore downloadIcon={<AiFillAndroid className="fill-current text-4xl"/>} text="Play Store" beauty="flex items-center mx-5 p-2 border-2 border-white rounded-full" />
-          <AppStore downloadIcon={<BsApple  className="fill-current text-4xl "/>} text="App Store" beauty="flex items-center mx-5 p-2 border-2 border-white rounded-full"/>
+          <AppStore downloadIcon={<AiFillAndroid className="fill-current text-3xl"/>} text="Play Store" beauty="flex items-center mx-5 p-2 border-2 border-white rounded-full" />
+          <AppStore downloadIcon={<BsApple  className="fill-current text-3xl "/>} text="App Store" beauty="flex items-center mx-5 p-2 border-2 border-white rounded-full"/>
         </div>
       </div>
     </section>

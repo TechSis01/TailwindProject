@@ -4,7 +4,7 @@ import clock from "../images/clockk-removebg-preview.png";
 import cylinder from "../images/cylinder-removebg-preview.png";
 function Features() {
   return (
-    <section className="flex flex-col justify-center items-center px-5">
+    <section className="flex flex-col justify-center items-center px-5 py-14 md:flex-row px-24">
       <FeaturesBox
         image={mobile}
         firstText="Minima Landing"

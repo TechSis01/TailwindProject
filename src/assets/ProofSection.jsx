@@ -48,16 +48,16 @@ function ProofSection() {
   }, [visitors]);
 
   return (
-    <section className="bg-neutral-100 px-5 py-20 flex justify-center items-center flex-col">
-      <div>
+    <section className="bg-neutral-100 px-24 py-20 flex justify-center items-center flex-col md:flex-row">
+      <div className="w-6/12">
         <img src={mobilePhone}></img>
       </div>
-      <div>
-        <p className="text-center text-2xl text-gray-500 pt-5">
+      <div className="w-6/12">
+        <p className="text-center text-2xl text-gray-500 py-14 md:text-left pl-10">
           Morbi sed faucibus urna mi aenean erat turpis, iaculis at ultricis
           eget, malesuada sed sociosqu class aptent taciti turpis litora.
         </p>
-        <div className="grid justify-center content-center">classes
+        <div className="grid justify-center content-center md:grid-cols-2">
           <ProofNum numbers={downloads} photo={globe} text="DOWNLOADS"/>
           <ProofNum numbers={members} photo={emoji} text="MEMBERS" />
           <Reviews numbers={reviews} photo={box} text="REVIEWS"/>
