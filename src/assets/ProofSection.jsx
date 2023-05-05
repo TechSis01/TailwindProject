@@ -49,11 +49,11 @@ function ProofSection() {
 
   return (
     <section className="bg-neutral-100 px-24 py-20 flex justify-center items-center flex-col md:flex-row">
-      <div className="w-6/12">
+      <div className="w-full md:w-6/12">
         <img src={mobilePhone}></img>
       </div>
-      <div className="w-6/12">
-        <p className="text-center text-2xl text-gray-500 py-14 md:text-left pl-10">
+      <div className="w-full md:w-6/12">
+        <p className="text-center text-2xl text-gray-500 py-14 md:text-left ">
           Morbi sed faucibus urna mi aenean erat turpis, iaculis at ultricis
           eget, malesuada sed sociosqu class aptent taciti turpis litora.
         </p>

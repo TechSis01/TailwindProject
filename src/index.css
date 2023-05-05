@@ -4,13 +4,9 @@
 html{
     overflow-x: hidden;
     scroll-behavior: smooth;
-
-}
-body{
-    scroll-behavior: smooth;
 }
 .contact-man{
-    height: 100vh;
+    /* height: 100vh; */
     background-size:cover;
     background-image:url('./images/man.jpg');
 }

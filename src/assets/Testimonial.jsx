@@ -20,10 +20,10 @@ function Testimonial({data,beauty}) {
     <div className="contact-man">
       <Slider
         {...settings}
-        className=" h-full py-14 bg-gray-900 bg-opacity-80 text-white px-24 "
+        className=" h-full py-14 bg-gray-900 bg-opacity-80 text-white "
       >
         {data.map((profile, index) => (
-          <div key={index} className="m-auto text-center px-5 leading-3xl mt-60">
+          <div key={index} className="mx-auto text-center px-5 leading-3xl">
             <p className="text-4xl py-5 text">{profile.text}</p>
             <p className={` ${beauty} text-xl py-5`}>{profile.name}</p>
             <p className="text-gray-300 italic">{profile.title}</p>

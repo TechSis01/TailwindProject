@@ -16,7 +16,7 @@ function Screenshot() {
         autoplaySpeed: 3000,
       };
   return (
-    <section className="py-24 px-24">
+    <section className="py-24 px-5 lg:px-24">
       <TopHeader text="SCREENSHOT"
           beauty="text-purple-800 text-xl font-bold text-center py-5"/>
       <TopHeader text="Look app in Action"

@@ -7,7 +7,7 @@ import HeroPhone from "./HeroPhone";
 function Hero() {
   return (
     <section id="top" className=" bg-purple-700 md:px-24 lg:pt-10 pb-24">
-      <div className="flex justify-between items-center py-0 px-5 ">
+      <div className="flex justify-between items-center py-5 px-5 ">
         <Brand brandName="MIN" />
         <Burger />
       </div>

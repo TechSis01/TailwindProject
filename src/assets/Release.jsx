@@ -3,7 +3,7 @@ import InputField from "./InputField"
 import Button from "./Button"
 function Release() {
   return (
-    <section className="flex flex-col py-14 lg:flex-row items-center px-24 py-36">
+    <section className="flex flex-col py-14 lg:flex-row items-center lg:px-24 py-36">
         <div>
         <TopHeader beauty="text-4xl leading w-8/12 mx-auto font-bold text-center py-10 lg:w-full py-5" text="Stay updated on the release"/>
         <TopHeader beauty="text-gray-400 text-center py-10 text-xl lg:py-5 lg:text-left" text="Be the first to know when we start "/>
